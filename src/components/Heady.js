@@ -1,8 +1,6 @@
 import React from 'react';
 import { func, string } from 'prop-types';
-
 import styled from "styled-components";
-
 import DarkModeBtn from '../modules/DarkMode';
 import Logo from '../modules/Logo';
 import Title from '../modules/Title';

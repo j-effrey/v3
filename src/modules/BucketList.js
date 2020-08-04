@@ -2,11 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import { breakpoints } from '../components/Breakpoints';
 
 const AboutWrapper = styled.div`
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
 `;
 
 function BucketList() {

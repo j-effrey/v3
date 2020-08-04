@@ -3,9 +3,7 @@ import styled from "styled-components";
 
 const TitleWrapper = styled.p`
     width: 100%;
-    // background-color: orange;
     text-align: center;
-    // margin: 0;
     margin: 50px 0 50px 0;
     text-transform: uppercase;
     letter-spacing: 0.07em;

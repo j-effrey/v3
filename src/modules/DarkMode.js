@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons';
 
 const DarkModeWrapper = styled.button` 
-    // background-color: aquamarine;
     width: 100%;
     text-align: right;
 `;

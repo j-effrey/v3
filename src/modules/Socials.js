@@ -6,14 +6,6 @@ import { faInstagram, faGithub, faLinkedin, faMedium } from '@fortawesome/free-b
 
 import { breakpoints } from "../components/Breakpoints";
 
-const SocialWrapper = styled.div`
-    // margin-bottom: 50px;
-
-    // @media (max-width: ${breakpoints.mobileMax}) {
-    //     margin-bottom: 25px;
-    // }
-`;
-
 const IconWrapper = styled.div`
 
     margin: 0 12px;
@@ -26,11 +18,11 @@ const IconWrapper = styled.div`
 
 function Socials() {
     return (
-        <SocialWrapper>
+        <div>
             <a
                 title='Github - @j-effrey'
                 target='_blank'
-                rel='noreferrer'
+                rel="noopener noreferrer"
                 href='https://github.com/j-effrey'
             >
                 <IconWrapper><FontAwesomeIcon icon={faGithub} size='lg' class="social" id="git" /></IconWrapper>
@@ -38,7 +30,7 @@ function Socials() {
             <a
                 title='LinkedIn - @wongjeffrey'
                 target='_blank'
-                rel='noreferrer'
+                rel="noopener noreferrer"
                 href='https://linkedin.com/in/wongjeffrey'
             >
                 <IconWrapper><FontAwesomeIcon icon={faLinkedin} size='lg' class="social" id="linkedin" /></IconWrapper>
@@ -46,7 +38,7 @@ function Socials() {
             <a
                 title='Medium - @j.effrey'
                 target='_blank'
-                rel='noreferrer'
+                rel="noopener noreferrer"
                 href='https://medium.com/@j.effrey'
             >
                 <IconWrapper><FontAwesomeIcon icon={faMedium} size='lg' class="social" id="medium" /></IconWrapper>
@@ -54,12 +46,12 @@ function Socials() {
             <a
                 title='Instagram - @jeff.reywong'
                 target='_blank'
-                rel='noreferrer'
+                rel="noopener noreferrer"
                 href='https://www.instagram.com/jeff.reywong/'
             >
                 <IconWrapper><FontAwesomeIcon icon={faInstagram} size='lg' class="social" id="instagram" /></IconWrapper>
             </a>
-        </SocialWrapper>
+        </div>
     );
 }
 

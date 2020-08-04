@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { breakpoints } from "../components/Breakpoints";
 import { func, string } from 'prop-types';
 import { Link } from 'react-router-dom';
 import Heady from '../components/Heady';
@@ -32,9 +31,3 @@ Home.propTypes = {
 };
 
 export default Home;
-
-{/* <HeaderWrapper>
-                <Link to="/"><Logo theme={theme} /></Link>
-                <DarkModeBtn theme={theme} toggleTheme={toggleTheme} />
-            </HeaderWrapper>
-            <Title /> */}

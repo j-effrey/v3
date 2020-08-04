@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import Photo from '../images/squareme.jpg';
+import Photo from '../images/squareme-min.jpg';
 import { breakpoints } from '../components/Breakpoints';
 
 const AboutWrapper = styled.div`
@@ -23,18 +23,18 @@ const BodyWrapper = styled.div`
 `;
 
 const SideBySide = styled.div`
-    font-size: 20px;
-      line-height: 150%;
-      width: 100%;
-      height: 100%;
-      margin: auto;
+    font-size: 18px;
+    line-height: 150%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 
-      :nth-child(2) {
-        @media (min-width: ${breakpoints.tabletMin}) {
-            margin-left: 50px;
-            width: 70%;
-        }
-      }
+    :nth-child(2) {
+    @media (min-width: ${breakpoints.tabletMin}) {
+        margin-left: 50px;
+        width: 70%;
+    }
+    }
 
 `;
 
@@ -44,10 +44,9 @@ function About() {
             <Link to="/"><Title /></Link>
             <BodyWrapper>
                 <SideBySide>
-                    <img src={Photo} class="photo" />
+                    <img src={Photo} class="photo" alt="Headshot" />
                 </SideBySide>
                 <SideBySide>
-                    Yessir, that's me. <br /><br />
                     I work on Platform at Yext NYC. <br /><br />
                     Beyond tech, I enjoy playing basketball, running, lifting, and skiing —
                     if it's anything remotely active, I've probably tried it. If not, I'll

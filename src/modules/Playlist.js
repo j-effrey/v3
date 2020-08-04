@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import { breakpoints } from '../components/Breakpoints';
 import SpotifyPlayer from 'react-spotify-player';
 
 const size = {

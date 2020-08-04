@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import styled, { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/GlobalStyles";
@@ -16,6 +16,7 @@ const AppWrapper = styled.div`
   margin: 50px auto;
   width: 80%;
   max-width: 900px;
+  font-family: Droid Sans Mono;
 
   @media (min-width: ${breakpoints.tabletMin}) {
     margin: 75px auto;
@@ -24,15 +25,6 @@ const AppWrapper = styled.div`
   @media (min-width: ${breakpoints.desktopMin}) {
     margin: 100px auto;
   }
-`;
-
-const HeaderWrapper = styled.div`
-  display: inline-flex;
-  width: 100%;
-`;
-
-const BodyWrapper = styled.a`
-  width: 100%;
 `;
 
 function App() {
