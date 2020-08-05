@@ -5,7 +5,7 @@ import Title from './Title';
 
 const AboutWrapper = styled.div`
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
 `;
 
 function BucketList() {
@@ -21,7 +21,7 @@ function BucketList() {
                 <li>Climb Mt. Everest, take a selfie at the top</li>
                 <li>Play lacrosse at Randall's Island</li>
             </ul>
-            <Link to="/about" className="normalLink">‹ Back</Link>
+            <Link to="/" className="normalLink">‹ Back</Link>
         </AboutWrapper>
     );
 }

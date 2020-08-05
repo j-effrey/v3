@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import { breakpoints } from '../components/Breakpoints';
 import Pdf from '../images/Resume-2020.pdf';
 
 const Paragraph = styled.p`
@@ -10,14 +9,14 @@ const Paragraph = styled.p`
     line-height: 150%;
     text-align: left;
     font-style: oblique;
-    font-size: 18px;
+    font-size: 20px;
 `;
 
 const Wrapper1 = styled.div`
     width: 100%;
     max-width: 600px;
     margin: auto;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
 `;
 

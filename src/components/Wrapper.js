@@ -5,7 +5,7 @@ import { breakpoints } from './Breakpoints';
 const WrapperComponent = styled.div`
     width: 100%;
     margin: auto;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
 
     @media (min-width: ${breakpoints.tabletMin}) {

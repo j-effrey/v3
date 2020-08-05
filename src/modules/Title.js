@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const TitleWrapper = styled.p`
+const TitleWrapper = styled.div`
     width: 100%;
     text-align: center;
     margin: 50px 0 50px 0;
@@ -11,7 +11,7 @@ const TitleWrapper = styled.p`
 
 function Title() {
     return (
-        <TitleWrapper><p class="title">Jeffrey Wong.<span class="cursor"><i></i></span></p></TitleWrapper>
+        <TitleWrapper><p className="title">Jeffrey Wong.<span className="cursor"><i></i></span></p></TitleWrapper>
     );
 }
 

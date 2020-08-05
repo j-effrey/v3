@@ -7,7 +7,7 @@ const Logo = ({ theme }) => {
   var isLight = theme === 'light';
 
   return (
-    <img src={isLight ? logoBlack : logoWhite} class="logo" alt="Logo"></img>
+    <img src={isLight ? logoBlack : logoWhite} className="logo" alt="Logo"></img>
   )
 };
 

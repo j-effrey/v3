@@ -5,17 +5,18 @@ import { func, string } from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons';
 
-const DarkModeWrapper = styled.button` 
+const DarkModeWrapper = styled.div` 
     width: 100%;
-    text-align: right;
+    display: flex;
+    direction: rtl;
 `;
 
 const DarkModeButton = ({ theme, toggleTheme }) => {
 
     return (
         <DarkModeWrapper>
-            <button onClick={toggleTheme}>
-                <FontAwesomeIcon icon={faAdjust} size='lg' class='rhs' />
+            <button onClick={toggleTheme} className="rhsbtn">
+                <FontAwesomeIcon icon={faAdjust} size='lg' class="rhs" />
             </button>
         </DarkModeWrapper>
     );

@@ -23,7 +23,7 @@ const BodyWrapper = styled.div`
 `;
 
 const SideBySide = styled.div`
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
     width: 100%;
     height: 100%;

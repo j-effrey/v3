@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&display=swap');
 
 @font-face {
   font-family: 'Droid Sans';
@@ -27,12 +28,12 @@
 }
 
 h3 {
-  font-size: 20px
+  font-size: 22px
 }
 
 li {
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 ul {
   margin-bottom: 50px;
@@ -41,6 +42,7 @@ ul {
 .normalLink {
   border-bottom: 2px solid transparent;
   transition-duration: 0.3s;
+  padding-bottom: 3px;
 }
 .normalLink:hover {
   border-bottom: 2px solid;
@@ -79,7 +81,7 @@ button {
 
 .pageLink {
   display: table;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 17px;
   padding-bottom: 3px;
   border-bottom: 2px solid;
@@ -100,7 +102,7 @@ button {
 	color: #0e76a8;
 }
 #instagram:hover {
-	color: #C13584;
+  color: #C13584;
 }
 #twitch:hover {
   color: #6441a5;
@@ -113,6 +115,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
 }
 
 .wave {
@@ -140,7 +143,5 @@ button {
     max-width: 500px;
     max-height: 500px;
     margin-bottom: 0px;
-    /* margin-left: 0; */
-    /* margin-right: 50px; */
   }
 }

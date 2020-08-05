@@ -16,7 +16,7 @@ const AppWrapper = styled.div`
   margin: 50px auto;
   width: 80%;
   max-width: 900px;
-  font-family: Droid Sans Mono;
+  font-family: Tinos;
 
   @media (min-width: ${breakpoints.tabletMin}) {
     margin: 75px auto;
@@ -37,6 +37,10 @@ function App() {
   const HomeComp = () => (
     <Home theme={theme} toggleTheme={toggleTheme} />
   );
+
+  const PlaylistComp = () => (
+    <Playlist theme={theme} />
+  );
   
   return (
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
@@ -47,7 +51,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/work" component={Work} />
             <Route path="/games" component={Games} />
-            <Route path="/playlist" component={Playlist} />
+            <Route path="/playlist" component={PlaylistComp} />
             <Route path="/bucketlist" component={BucketList} />
           </Switch>
         </AppWrapper>
