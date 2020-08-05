@@ -15,8 +15,9 @@ const PlaylistWrapper = styled.div`
 
 const PlayWrapper = styled.div`
     flex-basis: 400px; 
-    flex-grow: 1;
     flex-shrink: 1;
+    flex-grow: 1;
+    max-height: 60vh;
 `;
 
 const FollowWrapper = styled.div`
@@ -27,31 +28,33 @@ const FollowWrapper = styled.div`
 
 const Playlist = ({ theme }) => {
     return (
-        <PlaylistWrapper>
-                <Link to="/"><Title /></Link> 
-            <PlayWrapper>
-                <iframe 
-                    title="Spotify Play"
-                    src="https://open.spotify.com/embed/playlist/4OMXrQM1Q43EuFhENRcswP" 
-                    width="100%" 
-                    height="100%" 
-                    frameBorder="0" 
-                    allowtransparency="true" 
-                    allow="encrypted-media"></iframe>
-            </PlayWrapper>
-            <FollowWrapper>
-                <iframe 
-                    title="Spotify Follow"
-                    src={`https://open.spotify.com/follow/1/?uri=spotify:user:12184294903&size=detail&theme=${theme}`}
-                    width="230px" 
-                    height="56px" 
-                    scrolling="no" 
-                    frameBorder="0" 
-                    style={{border: 'none', overflow: 'hidden', marginTop: '50px', marginBottom: '50px', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}
-                    allowtransparency="true"
-                ></iframe>
-            </FollowWrapper>
-        </PlaylistWrapper>
+        <div>
+            <Link to="/"><Title /></Link>
+            <PlaylistWrapper> 
+                <PlayWrapper>
+                    <iframe 
+                        title="Spotify Play"
+                        src="https://open.spotify.com/embed/playlist/4OMXrQM1Q43EuFhENRcswP" 
+                        width="100%" 
+                        height="100%" 
+                        frameBorder="0" 
+                        allowtransparency="true" 
+                        allow="encrypted-media"></iframe>
+                </PlayWrapper>
+                <FollowWrapper>
+                    <iframe 
+                        title="Spotify Follow"
+                        src={`https://open.spotify.com/follow/1/?uri=spotify:user:12184294903&size=detail&theme=${theme}`}
+                        width="230px" 
+                        height="56px" 
+                        scrolling="no" 
+                        frameBorder="0" 
+                        style={{border: 'none', overflow: 'hidden', marginTop: '40px', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}
+                        allowtransparency="true"
+                    ></iframe>
+                </FollowWrapper>
+            </PlaylistWrapper>
+        </div>
     );
 }
 
