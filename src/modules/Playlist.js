@@ -21,6 +21,8 @@ const PlayWrapper = styled.div`
 
 const FollowWrapper = styled.div`
     justify-content: flex-end;
+    text-align: center;
+    width: 100%;
 `;
 
 const Playlist = ({ theme }) => {
@@ -41,7 +43,7 @@ const Playlist = ({ theme }) => {
                 <iframe 
                     title="Spotify Follow"
                     src={`https://open.spotify.com/follow/1/?uri=spotify:user:12184294903&size=detail&theme=${theme}`}
-                    width="201px" 
+                    width="230px" 
                     height="56px" 
                     scrolling="no" 
                     frameBorder="0" 
