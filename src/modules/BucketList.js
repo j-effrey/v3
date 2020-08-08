@@ -20,6 +20,7 @@ function BucketList() {
                 <li>Finish the last course at Adirondack Extreme</li>
                 <li>Climb Mt. Everest, take a selfie at the top</li>
                 <li>Play lacrosse at Randall's Island</li>
+                <li>Dunk on a 10 ft rim</li>
             </ul>
             <Link to="/" className="normalLink">‹ Back</Link>
         </AboutWrapper>

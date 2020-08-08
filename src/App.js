@@ -15,7 +15,8 @@ import { breakpoints } from './components/Breakpoints';
 const AppWrapper = styled.div`
   margin: 50px auto;
   width: 80%;
-  max-width: 900px;
+  max-width: 800px;
+  // font-family: Playfair Display;
   font-family: Tinos;
 
   @media (min-width: ${breakpoints.tabletMin}) {
