@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9b0022c.chunk.css",
-    "main.js": "/static/js/main.025e0e55.chunk.js",
-    "main.js.map": "/static/js/main.025e0e55.chunk.js.map",
+    "main.css": "/static/css/main.7a528f84.chunk.css",
+    "main.js": "/static/js/main.7c0c8604.chunk.js",
+    "main.js.map": "/static/js/main.7c0c8604.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.30c0368b.js",
     "runtime-main.js.map": "/static/js/runtime-main.30c0368b.js.map",
     "static/js/2.112177c0.chunk.js": "/static/js/2.112177c0.chunk.js",
     "static/js/2.112177c0.chunk.js.map": "/static/js/2.112177c0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b55ce2b9b297a1a22d4c5bf654e81b62.js": "/precache-manifest.b55ce2b9b297a1a22d4c5bf654e81b62.js",
+    "precache-manifest.6fe2b2383507079b1d1c20d1443f1a6c.js": "/precache-manifest.6fe2b2383507079b1d1c20d1443f1a6c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f9b0022c.chunk.css.map": "/static/css/main.f9b0022c.chunk.css.map",
+    "static/css/main.7a528f84.chunk.css.map": "/static/css/main.7a528f84.chunk.css.map",
     "static/js/2.112177c0.chunk.js.LICENSE.txt": "/static/js/2.112177c0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/DroidSansMono.78c0de8a.ttf",
-    "static/media/Resume-2020.pdf": "/static/media/Resume-2020.24fb4854.pdf",
+    "static/media/App.css": "/static/media/DroidSans.9e94decf.ttf",
+    "static/media/Resume-2020.pdf": "/static/media/Resume-2020.0d88a638.pdf",
     "static/media/squareme-min.jpg": "/static/media/squareme-min.69d72522.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.30c0368b.js",
     "static/js/2.112177c0.chunk.js",
-    "static/css/main.f9b0022c.chunk.css",
-    "static/js/main.025e0e55.chunk.js"
+    "static/css/main.7a528f84.chunk.css",
+    "static/js/main.7c0c8604.chunk.js"
   ]
 }
