@@ -14,10 +14,10 @@ const PlaylistWrapper = styled.div`
 `;
 
 const PlayWrapper = styled.div`
-    flex-basis: 400px; 
+    flex-basis: 350px; 
     flex-shrink: 1;
     flex-grow: 1;
-    max-height: 60vh;
+    max-height: 55vh;
 `;
 
 const FollowWrapper = styled.div`

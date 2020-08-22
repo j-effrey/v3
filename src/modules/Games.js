@@ -32,7 +32,7 @@ function Games() {
                 <li>CS:GO (currently DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
                 <li><a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">
                     COD: Warzone
-                    </a> (10+ wins, 1.1+ KDR)</li>
+                    </a> (20+ wins, 1.14 KDR)</li>
                 <li>Valorant (during beta)</li>
                 <li>Smash Ultimate (Falcon main)</li>
                 <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
