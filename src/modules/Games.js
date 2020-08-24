@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import styled from "styled-components";
 
 import { Link } from 'react-router-dom';
@@ -19,33 +19,69 @@ const WordWrapper = styled.span`
     text-decoration: line-through;
 `;
 
-function Games() {
-    return (
-        <Wrapper1>
-            <Link to="/"><Title /></Link>
-            Outside of tech, if I'm not with friends in real life, 
-            chances are I'm gaming with them online. Most of the games 
-            in my current rotation are popular FPS titles. Maybe I'll 
-            stream one day!
-            <h3>Games</h3>
-            <ul>
-                <li>CS:GO (currently DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
-                <li><a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">
-                    COD: Warzone
-                    </a> (20+ wins, 1.14 KDR)</li>
-                <li>Valorant (during beta)</li>
-                <li>Smash Ultimate (Falcon main)</li>
-                <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
-            </ul>
-            <h3>Setup</h3>
-            <ul>
-                <li>Macbook Pro 2018 15" (i9, 32GB RAM, Radeon Vega 20)</li>
-                <li>Peripherals: Dell S2719DGF, Keychron K6, Razer Deathadder Chroma, HyperX Cloud II</li>
-                <li>Other: Windows 6/11, 400 DPI, 1000 Hz, 1.5 sens</li>
-            </ul>
-            <a href="https://www.twitch.tv/bestjeff1" target="blank"><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></a>
-        </Wrapper1>
-    );
+class Games extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            wins: 20, // last manually updated win-count 
+            kills: 2480, // last manually updated kill-count
+            kdr: 1.15, // last manually updated kdr
+        };
+    }
+
+    componentDidMount() {
+        fetch("https://call-of-duty-modern-warfare.p.rapidapi.com/warzone/DopeShotzz%25231267/battle", {
+            "method": "GET",
+            "headers": {
+                "x-rapidapi-host": "call-of-duty-modern-warfare.p.rapidapi.com",
+                "x-rapidapi-key": "03fe1c4889mshb385f2528cfceacp19bad8jsn436b1e998745"
+            }
+        })
+        .then(response => {
+            response.json().then(data => {
+                this.setState({
+                    wins: data.br.wins,
+                    kills: data.br.kills,
+                    kdr: (data.br.kdRatio).toFixed(2),
+                });
+            });
+        })
+        .catch(err => {
+            console.log(err);
+        });
+    }
+
+    render() {
+        return (
+            <Wrapper1>
+                <Link to="/"><Title /></Link>
+                Outside of tech, if I'm not with friends in real life, 
+                chances are I'm gaming with them online. Most of the games 
+                in my current rotation are popular FPS titles. Maybe I'll 
+                stream one day!
+                <h3>Games</h3>
+                <ul>
+                    <li>CS:GO (DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
+                    <li>
+                        COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">{this.state.wins} wins</a>)</li>
+                    <li>Valorant (during beta)</li>
+                    <li>Smash Ultimate (Falcon main)</li>
+                    <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
+                </ul>
+                <h3>Setup</h3>
+                <ul>
+                    <li>Macbook Pro (15-inch, 2018)</li>
+                    <li>Specs: Intel i9 @ 2.9GHz, 32GB RAM, Radeon Pro Vega 20</li>
+                    <li>Peripherals: Dell S2719DGF, Keychron K6, Razer Deathadder Chroma, HyperX Cloud II</li>
+                    <li>Other: Windows 6/11, 400 DPI, 1000 Hz, 1.5 sens</li>
+                    <li>CSGO: 1280x1024 (stretched)</li>
+                </ul>
+                <a href="https://www.twitch.tv/bestjeff1" target="blank"><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></a>
+            </Wrapper1>
+        );
+    }
+    
 }
 
 export default Games;
