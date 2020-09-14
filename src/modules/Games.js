@@ -24,9 +24,7 @@ class Games extends Component {
     constructor() {
         super();
         this.state = {
-            wins: 20, // last manually updated win-count 
-            kills: 2480, // last manually updated kill-count
-            kdr: 1.15, // last manually updated kdr
+            wins: null
         };
     }
 
@@ -41,9 +39,7 @@ class Games extends Component {
         .then(response => {
             response.json().then(data => {
                 this.setState({
-                    wins: data.br.wins,
-                    kills: data.br.kills,
-                    kdr: (data.br.kdRatio).toFixed(2),
+                    wins: data.br.wins
                 });
             });
         })
@@ -53,6 +49,9 @@ class Games extends Component {
     }
 
     render() {
+        if (!this.state.wins) {
+            return <div />
+        }
         return (
             <Wrapper1>
                 <Link to="/"><Title /></Link>
@@ -63,8 +62,7 @@ class Games extends Component {
                 <h3>Games</h3>
                 <ul>
                     <li>CS:GO (DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
-                    <li>
-                        COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">{this.state.wins} wins</a>)</li>
+                    <li>COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">{this.state.wins} wins</a>)</li>
                     <li>Valorant (during beta)</li>
                     <li>Smash Ultimate (Falcon main)</li>
                     <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
@@ -73,11 +71,11 @@ class Games extends Component {
                 <ul>
                     <li>Macbook Pro (15-inch, 2018)</li>
                     <li>Specs: Intel i9 @ 2.9GHz, 32GB RAM, Radeon Pro Vega 20</li>
-                    <li>Peripherals: Dell S2719DGF, Keychron K6, Razer Deathadder Chroma, HyperX Cloud II</li>
+                    <li>Peripherals: Dell S2719DGF, Keychron K6, Razer Deathadder Chroma, HyperX Cloud II, Hermon Miller Aeron</li>
                     <li>Other: Windows 6/11, 400 DPI, 1000 Hz, 1.5 sens</li>
                     <li>CSGO: 1280x1024 (stretched)</li>
                 </ul>
-                <a href="https://www.twitch.tv/bestjeff1" target="blank"><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></a>
+                <a href="https://www.twitch.tv/bestjeff_" target="blank"><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></a>
             </Wrapper1>
         );
     }
