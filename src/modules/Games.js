@@ -24,7 +24,8 @@ class Games extends Component {
     constructor() {
         super();
         this.state = {
-            wins: null
+            wins: null,
+            kills: null,
         };
     }
 
@@ -39,7 +40,8 @@ class Games extends Component {
         .then(response => {
             response.json().then(data => {
                 this.setState({
-                    wins: data.br.wins
+                    wins: data.br.wins,
+                    kills: data.br.kills,
                 });
             });
         })
@@ -69,11 +71,10 @@ class Games extends Component {
                 </ul>
                 <h3>Setup</h3>
                 <ul>
-                    <li>Macbook Pro (15-inch, 2018)</li>
-                    <li>Specs: Intel i9 @ 2.9GHz, 32GB RAM, Radeon Pro Vega 20</li>
-                    <li>Peripherals: Dell S2719DGF, Keychron K6, Razer Deathadder Chroma, HyperX Cloud II, Hermon Miller Aeron</li>
-                    <li>Other: Windows 6/11, 400 DPI, 1000 Hz, 1.5 sens</li>
-                    <li>CSGO: 1280x1024 (stretched)</li>
+                    <li>Components: NZXT H510i, Ryzen 5 5600x, GeForce RTX 3080, MSI B550 Gaming Edge, Kraken X63, G.SKILL Ripjaws V, WD_BLACK SN750, Corsair RMx 850</li>
+                    <li>Peripherals: Dell S2719DGF, Keychron K6, Logitech Pro X Superlight, HyperX Cloud II, Audioengine A2+, Hermon Miller Aeron</li>
+                    <li>Other: Windows 7/11, 400 DPI, 1000 Hz, 2.0 sens</li>
+                    <li>CSGO: 1600x1200 (stretched)</li>
                 </ul>
                 <a href="https://www.twitch.tv/bestjeff_" target="blank"><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></a>
             </Wrapper1>
