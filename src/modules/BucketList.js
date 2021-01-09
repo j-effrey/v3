@@ -19,7 +19,7 @@ function BucketList() {
                 <li>Become a Twitch partner</li>
                 <li>Finish the last course at Adirondack Extreme</li>
                 <li>Climb Mt. Everest, take a selfie at the top</li>
-                <li>Play lacrosse at Randall's Island</li>
+                <li>Lacrosse with friends</li>
                 <li>Dunk on a 10 ft rim</li>
             </ul>
             <Link to="/" className="normalLink">‹ Back</Link>

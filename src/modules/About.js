@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import Photo from '../images/squareme-min.jpg';
+import Photo from '../images/squareme-min2.jpg';
 import { breakpoints } from '../components/Breakpoints';
 
 const AboutWrapper = styled.div`

@@ -57,24 +57,22 @@ class Games extends Component {
         return (
             <Wrapper1>
                 <Link to="/"><Title /></Link>
-                Outside of tech, if I'm not with friends in real life, 
-                chances are I'm gaming with them online. Most of the games 
-                in my current rotation are popular FPS titles. Maybe I'll 
-                stream one day!
+                I might stream one day!
                 <h3>Games</h3>
                 <ul>
                     <li>CS:GO (DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
                     <li>COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">{this.state.wins} wins</a>)</li>
-                    <li>Valorant (during beta)</li>
+                    <li>Valorant (Gold 2)</li>
                     <li>Smash Ultimate (Falcon main)</li>
                     <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
                 </ul>
                 <h3>Setup</h3>
                 <ul>
-                    <li>Components: NZXT H510i, Ryzen 5 5600x, GeForce RTX 3080, MSI B550 Gaming Edge, Kraken X63, G.SKILL Ripjaws V, WD_BLACK SN750, Corsair RMx 850</li>
-                    <li>Peripherals: Dell S2719DGF, Keychron K6, Logitech Pro X Superlight, HyperX Cloud II, Audioengine A2+, Hermon Miller Aeron</li>
-                    <li>Other: Windows 7/11, 400 DPI, 1000 Hz, 2.0 sens</li>
-                    <li>CSGO: 1600x1200 (stretched)</li>
+                    <li>Build: Ryzen 5 5600x, Asus TUF RTX 3080 // H510i, Kraken X63, MSI Gaming Edge, G.Skill Ripjaws (32GB), SN750 NVMe (1TB), Corsair RMx 850</li>
+                    <li>Peripherals: Dell S2719DGF, Keychron K6, Logitech Pro X Superlight, Hermon Miller Aeron</li>
+                    <li>Streaming: Shure SM7B, Focusrite Scarlett Solo, Cloudlifter CL-1, Audioengine A2+, Canon EOS Rebel T6</li>
+                    <li>Other: Windows 6/11, 400 DPI, 1000 Hz, 2.5 sens</li>
+                    <li>Res: 1920x1440 (4:3 stretched)</li>
                 </ul>
                 <a href="https://www.twitch.tv/bestjeff_" target="blank"><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></a>
             </Wrapper1>
