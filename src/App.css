@@ -32,6 +32,10 @@ ul {
   margin-bottom: 50px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .normalLink {
   border-bottom: 2px solid transparent;
   transition-duration: 0.3s;

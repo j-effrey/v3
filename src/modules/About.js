@@ -30,10 +30,10 @@ const SideBySide = styled.div`
     margin: auto;
 
     :nth-child(2) {
-    @media (min-width: ${breakpoints.tabletMin}) {
-        margin-left: 50px;
-        width: 70%;
-    }
+        @media (min-width: ${breakpoints.tabletMin}) {
+            margin-left: 50px;
+            width: 70%;
+        }
     }
 
 `;
@@ -48,9 +48,9 @@ function About() {
                 </SideBySide>
                 <SideBySide>
                     I work on Platform at Yext NYC. <br /><br />
-                    Beyond tech, I enjoy playing basketball, running, lifting, and skiing —
-                    if it's anything remotely active, I've probably tried it. If not, I'll
-                    get around to it. <br /><br />
+                    Outside of tech, I enjoy basketball, roadtrips, lifting, skiing and gaming. <br /><br />
+                    That being said, I want to get into investing, playing piano, 
+                    videography, running, and reading. <br /><br />
                     <Link to="/bucketlist" class="pageLink">Bucket list</Link>
                 </SideBySide>
             </BodyWrapper>

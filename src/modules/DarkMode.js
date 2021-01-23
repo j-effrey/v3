@@ -15,7 +15,7 @@ const DarkModeButton = ({ theme, toggleTheme }) => {
 
     return (
         <DarkModeWrapper>
-            <button onClick={toggleTheme} className="rhsbtn">
+            <button style={{outline: "none"}} onClick={toggleTheme} className="rhsbtn">
                 <FontAwesomeIcon icon={faAdjust} size='lg' class="rhs" />
             </button>
         </DarkModeWrapper>

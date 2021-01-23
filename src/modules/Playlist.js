@@ -20,12 +20,6 @@ const PlayWrapper = styled.div`
     max-height: 55vh;
 `;
 
-const FollowWrapper = styled.div`
-    justify-content: flex-end;
-    text-align: center;
-    width: 100%;
-`;
-
 const Playlist = ({ theme }) => {
     return (
         <div>
@@ -41,18 +35,6 @@ const Playlist = ({ theme }) => {
                         allowtransparency="true" 
                         allow="encrypted-media"></iframe>
                 </PlayWrapper>
-                <FollowWrapper>
-                    <iframe 
-                        title="Spotify Follow"
-                        src={`https://open.spotify.com/follow/1/?uri=spotify:user:12184294903&size=detail&theme=${theme}`}
-                        width="230px" 
-                        height="56px" 
-                        scrolling="no" 
-                        frameBorder="0" 
-                        style={{border: 'none', overflow: 'hidden', marginTop: '40px', display: 'block', marginLeft: 'auto', marginRight: 'auto'}}
-                        allowtransparency="true"
-                    ></iframe>
-                </FollowWrapper>
             </PlaylistWrapper>
         </div>
     );

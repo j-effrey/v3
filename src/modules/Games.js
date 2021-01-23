@@ -25,7 +25,7 @@ class Games extends Component {
         return (
             <Wrapper1>
                 <Link to="/"><Title /></Link>
-                I might stream one day!
+                I might stream one day...
                 <h3>Games</h3>
                 <ul>
                     <li>CS:GO (DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
