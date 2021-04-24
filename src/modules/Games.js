@@ -29,8 +29,9 @@ class Games extends Component {
                 <h3>Games</h3>
                 <ul>
                     <li>CS:GO (DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
-                    <li>COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">104 wins</a>)</li>
+                    <li>COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">120 wins</a>), 1.5+ K/D</li>
                     <li>Valorant (Plat 1)</li>
+                    <li>Apex Legends (Gold III)</li>
                     <li>Smash Ultimate (Falcon main)</li>
                     <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
                 </ul>
