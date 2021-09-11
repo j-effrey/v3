@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import Pdf from '../images/Resume-2020.pdf';
+import Pdf from '../images/Jeffrey_Wong_Software_Engineer_Resume.pdf';
 
 const Paragraph = styled.p`
     margin-bottom: 50px;
@@ -34,7 +34,7 @@ function Work() {
             </Paragraph>
             <h3>Some stuff I've done</h3>
             <ul>
-                <li>Engineer @ <a href="https://www.yext.com" class="normalLink" target="_blank" rel="noopener noreferrer">Yext</a> — Platform</li>
+                <li>Engineer @ <a href="https://www.yext.com" class="normalLink" target="_blank" rel="noopener noreferrer">Yext</a> — Core Platform</li>
                 <li>Intern @ <a href="https://www.yext.com/products/pages/" class="normalLink" target="_blank" rel="noopener noreferrer">Yext</a> — Pages</li>
                 <li>TA @ <a href="https://www.cs.cornell.edu/~hirsh/4700/" class="normalLink" target="_blank" rel="noopener noreferrer">Cornell CS4700</a> — AI</li>
                 <li>Intern @ <a href="https://www.lockheedmartin.com/en-us/who-we-are/business-areas/rotary-and-mission-systems.html" class="normalLink" target="_blank" rel="noopener noreferrer">Lockheed Martin</a> — Databases</li>
