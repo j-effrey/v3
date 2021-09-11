@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e574063d8858fb8d8f0f8ac3c962d83",
+    "revision": "82a6b1b2f9200ca4de10a66d2cd1906a",
     "url": "/index.html"
   },
   {
-    "revision": "9a4ebd630c3564b57d4c",
+    "revision": "4f5f83f41107f0b68e2d",
     "url": "/static/css/main.3cf89494.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.fcf50e27.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a4ebd630c3564b57d4c",
-    "url": "/static/js/main.513f0475.chunk.js"
+    "revision": "4f5f83f41107f0b68e2d",
+    "url": "/static/js/main.3095e0e7.chunk.js"
   },
   {
     "revision": "20feb87f852fab8380b0",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/DroidSans.9e94decf.ttf"
   },
   {
-    "revision": "0d88a63817e495a1ffb00094d6cc91e6",
-    "url": "/static/media/Resume-2020.0d88a638.pdf"
+    "revision": "c924b1b5bb8e1b65b435c7cbd85912d2",
+    "url": "/static/media/Jeffrey_Wong_Software_Engineer_Resume.c924b1b5.pdf"
   },
   {
     "revision": "4cb96805be30c4b838c2940c1a7284d4",
