@@ -25,16 +25,15 @@ class Games extends Component {
         return (
             <Wrapper1>
                 <Link to="/"><Title /></Link>
-                I might stream one day...
                 <h3>Games</h3>
                 <ul>
                     <li>CS:GO (DMG, <a href="https://www.faceit.com/en/players/dopeshotz/stats/csgo" target="blank" class="normalLink">Faceit level 5</a>)</li>
-                    <li>Valorant (Plat 2, Reyna main)</li>
-                    <li>Apex Legends (Plat II, Octane main)</li>
+                    <li>Valorant (Plat 2)</li>
+                    <li>Apex Legends (Plat II)</li>
                     <li>COD: Warzone (<a href="https://cod.tracker.gg/warzone/profile/battlenet/DopeShotzz%231267/overview" target="blank" class="normalLink">120 wins</a>), 1.5+ K/D</li>
                     <li>OSRS (<a href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=thirdagebot" target="blank" class="normalLink">Hiscores</a>)</li>                  
                     <li>Smash Ultimate (Captain Falcon main)</li>
-                    <li><WordWrapper>League of Legends</WordWrapper> (as if)</li>
+                    <li><WordWrapper>League of Legends</WordWrapper></li>
                 </ul>
                 <h3>Setup</h3>
                 <ul>
