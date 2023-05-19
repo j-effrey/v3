@@ -11,7 +11,7 @@ const TitleWrapper = styled.div`
 
 function Title() {
     return (
-        <TitleWrapper><p className="title">Jeffrey Wong.<span className="cursor"><i></i></span></p></TitleWrapper>
+        <TitleWrapper><p className="title">Jeffrey Wong <span className="cursor"><i></i></span></p></TitleWrapper>
     );
 }
 
