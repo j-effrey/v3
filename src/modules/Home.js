@@ -14,10 +14,10 @@ const Home = ({ theme, toggleTheme }) => {
         <div>
             <Heady theme={theme} toggleTheme={toggleTheme} />
             <Links>
-                <Link to="/about" className="pageLink">About</Link>
-                <Link to="/work" className="pageLink">Work</Link>
-                <Link to="/games" className="pageLink">Games</Link>
-                <Link to="/playlist" className="pageLink">Songs</Link>
+                {/* <Link to="/about" className="pageLink">About</Link>
+                <Link to="/work" className="pageLink">Work</Link> */}
+                {/* <Link to="/games" className="pageLink">Games</Link> */}
+                {/* <Link to="/playlist" className="pageLink">Songs</Link> */}
             </Links>
 
             <Socials />

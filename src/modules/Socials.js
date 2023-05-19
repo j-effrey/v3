@@ -19,13 +19,13 @@ const IconWrapper = styled.div`
 function Socials() {
     return (
         <div>
-            <a
-                title='Github - @j-effrey'
-                target='_blank'
-                rel="noopener noreferrer"
-                href='https://github.com/j-effrey'
+            <a 
+                title='Twitch - @bestjeff_'
+                href="https://www.twitch.tv/bestjeff_" 
+                target="_blank"
+                rel='noopener noreferrer'
             >
-                <IconWrapper><FontAwesomeIcon icon={faGithub} size='lg' class="social" id="git" /></IconWrapper>
+                <IconWrapper><FontAwesomeIcon icon={faTwitch} size="lg" class="social" id="twitch" /></IconWrapper>
             </a>
             <a
                 title='LinkedIn - @wongjeffrey'
@@ -34,14 +34,6 @@ function Socials() {
                 href='https://linkedin.com/in/wongjeffrey'
             >
                 <IconWrapper><FontAwesomeIcon icon={faLinkedin} size='lg' class="social" id="linkedin" /></IconWrapper>
-            </a>
-            <a
-                title='Medium - @j.effrey'
-                target='_blank'
-                rel="noopener noreferrer"
-                href='https://medium.com/@j.effrey'
-            >
-                <IconWrapper><FontAwesomeIcon icon={faMedium} size='lg' class="social" id="medium" /></IconWrapper>
             </a>
             <a
                 title='Instagram - @jeff.reywong'
