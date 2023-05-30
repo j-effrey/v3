@@ -36,7 +36,7 @@ function Socials() {
                 <IconWrapper><FontAwesomeIcon icon={faLinkedin} size='lg' class="social" id="linkedin" /></IconWrapper>
             </a>
             <a
-                title='Instagram - @jeff.reywong'
+                title='Instagram - @j.effreyw'
                 target='_blank'
                 rel="noopener noreferrer"
                 href='https://www.instagram.com/j.effreyw/'
