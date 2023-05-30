@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTwitch, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { breakpoints } from "../components/Breakpoints";
 
