@@ -39,7 +39,7 @@ function Socials() {
                 title='Instagram - @jeff.reywong'
                 target='_blank'
                 rel="noopener noreferrer"
-                href='https://www.instagram.com/jeff.reywong/'
+                href='https://www.instagram.com/j.effreyw/'
             >
                 <IconWrapper><FontAwesomeIcon icon={faInstagram} size='lg' class="social" id="instagram" /></IconWrapper>
             </a>

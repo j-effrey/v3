@@ -63,9 +63,9 @@ button {
 	position: absolute;
 	width: 2px;
 	height: 100%;
-  left: 1px;
+  left: 5px;
 	animation-name: blink;
-	animation-duration: 1000ms;
+	animation-duration: 750ms;
 	animation-iteration-count: infinite;
 	opacity: 1;
 }
