@@ -1,25 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cf89494.chunk.css",
-    "main.js": "/static/js/main.d2d9a2d2.chunk.js",
-    "main.js.map": "/static/js/main.d2d9a2d2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.30c0368b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.30c0368b.js.map",
-    "static/js/2.fcf50e27.chunk.js": "/static/js/2.fcf50e27.chunk.js",
-    "static/js/2.fcf50e27.chunk.js.map": "/static/js/2.fcf50e27.chunk.js.map",
+    "main.css": "/static/css/main.28b73d40.css",
+    "main.js": "/static/js/main.48db95c6.js",
+    "static/media/Jeffrey_Wong_Software_Engineer_Resume.pdf": "/static/media/Jeffrey_Wong_Software_Engineer_Resume.33605d2e4551197ec533.pdf",
+    "static/media/DroidSans.ttf": "/static/media/DroidSans.6509cf43581d63eba297.ttf",
+    "static/media/squareme-min2.jpg": "/static/media/squareme-min2.fe3775b0652d89037c6f.jpg",
     "index.html": "/index.html",
-    "precache-manifest.9c0cc05a0613f02db5c9e4a7ee8419a2.js": "/precache-manifest.9c0cc05a0613f02db5c9e4a7ee8419a2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3cf89494.chunk.css.map": "/static/css/main.3cf89494.chunk.css.map",
-    "static/js/2.fcf50e27.chunk.js.LICENSE.txt": "/static/js/2.fcf50e27.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/DroidSans.9e94decf.ttf",
-    "static/media/Jeffrey_Wong_Software_Engineer_Resume.pdf": "/static/media/Jeffrey_Wong_Software_Engineer_Resume.3ad5a994.pdf",
-    "static/media/squareme-min2.jpg": "/static/media/squareme-min2.4cb96805.jpg"
+    "main.28b73d40.css.map": "/static/css/main.28b73d40.css.map",
+    "main.48db95c6.js.map": "/static/js/main.48db95c6.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.30c0368b.js",
-    "static/js/2.fcf50e27.chunk.js",
-    "static/css/main.3cf89494.chunk.css",
-    "static/js/main.d2d9a2d2.chunk.js"
+    "static/css/main.28b73d40.css",
+    "static/js/main.48db95c6.js"
   ]
 }
