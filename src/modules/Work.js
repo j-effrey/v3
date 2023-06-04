@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Title from './Title';
-import Pdf from '../images/Jeffrey_Wong_Software_Engineer_Resume.pdf';
 
 const Paragraph = styled.p`
     margin-bottom: 50px;
@@ -40,7 +39,6 @@ function Work() {
                 <li>Intern @ <a href="https://www.lockheedmartin.com/en-us/who-we-are/business-areas/rotary-and-mission-systems.html" class="normalLink" target="_blank" rel="noopener noreferrer">Lockheed Martin</a> — Databases</li>
                 <li>Intern @ <a href="https://www.netsurit.com/en-us/" class="normalLink" target="_blank" rel="noopener noreferrer">Netsurit</a> — DevOps</li>
             </ul>
-            <a href={Pdf} target="_blank" class="pageLink" rel="noopener noreferrer">resumé</a>
         </Wrapper1>
     );
 }

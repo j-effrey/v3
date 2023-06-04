@@ -20,7 +20,7 @@ const Home = ({ theme, toggleTheme }) => {
                 {/* <Link to="/playlist" className="pageLink">Songs</Link> */}
             </Links>
 
-            <Socials />
+            <Socials theme={theme} />
         </div>
     );
 };
