@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d0570e2.css",
-    "main.js": "/static/js/main.128b505e.js",
-    "static/media/Jeffrey_Wong_Software_Engineer_Resume.pdf": "/static/media/Jeffrey_Wong_Software_Engineer_Resume.33605d2e4551197ec533.pdf",
+    "main.css": "/static/css/main.e27c3eb1.css",
+    "main.js": "/static/js/main.e094cc21.js",
     "static/media/DroidSans.ttf": "/static/media/DroidSans.6509cf43581d63eba297.ttf",
     "static/media/CutiveMono-Regular.ttf": "/static/media/CutiveMono-Regular.0ca4da0b0a4342cac8d3.ttf",
     "static/media/squareme-min2.jpg": "/static/media/squareme-min2.fe3775b0652d89037c6f.jpg",
+    "static/media/Resume_Dark_2023.pdf": "/static/media/Resume_Dark_2023.a5c01361c86979141ad2.pdf",
+    "static/media/Resume_Light_2023.pdf": "/static/media/Resume_Light_2023.9e40aa38e3cc9864000a.pdf",
     "index.html": "/index.html",
-    "main.6d0570e2.css.map": "/static/css/main.6d0570e2.css.map",
-    "main.128b505e.js.map": "/static/js/main.128b505e.js.map"
+    "main.e27c3eb1.css.map": "/static/css/main.e27c3eb1.css.map",
+    "main.e094cc21.js.map": "/static/js/main.e094cc21.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0570e2.css",
-    "static/js/main.128b505e.js"
+    "static/css/main.e27c3eb1.css",
+    "static/js/main.e094cc21.js"
   ]
 }
