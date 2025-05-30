@@ -23,9 +23,10 @@ jobs:
       - name: Configure Git User
         run: |
           git config --global user.name "j-effrey"
-          git config --global user.email "jhw263@cornell.edu" # Or your actual email if you prefer
+          git config --global user.email "actions@github.com" # Or your actual email
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        # The key change is adding the --repo argument to the gh-pages command
+        run: npm run deploy -- --repo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Still good to keep this, gh-pages might use it for other API calls
