@@ -15,15 +15,17 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # You can adjust this to match your project's Node version if needed
+          node-version: '18'
 
       - name: Install dependencies
         run: npm install
+
+      - name: Configure Git User
+        run: |
+          git config --global user.name "j-effrey"
+          git config --global user.email "jhw263@cornell.edu" # Or your actual email if you prefer
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # If gh-pages requires a user, uncomment and set these:
-          GH_PAGES_USER: j-effrey # Your GitHub username
-          GH_PAGES_EMAIL: jhw263@cornell.edu # The email associated with your GitHub account
