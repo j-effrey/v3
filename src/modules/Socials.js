@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import DarkPdf from '../images/Resume_Dark_2023.pdf';
-import LightPdf from '../images/Resume_Light_2023.pdf';
+import DarkPdf from '../images/Resume.pdf';
+import LightPdf from '../images/Resume.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faTwitch, faLinkedin } from '@fortawesome/free-brands-svg-icons';
