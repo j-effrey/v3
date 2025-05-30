@@ -25,5 +25,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # If gh-pages requires a user, uncomment and set these:
-          # GH_PAGES_USER: j-effrey # Your GitHub username
-          # GH_PAGES_EMAIL: your-email@example.com # The email associated with your GitHub account
+          GH_PAGES_USER: j-effrey # Your GitHub username
+          GH_PAGES_EMAIL: jhw263@cornell.edu # The email associated with your GitHub account
